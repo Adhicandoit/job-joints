@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import { FOOTER, SITE } from '../../data/site';
 import Logo from '../ui/Logo';
 
@@ -32,7 +32,6 @@ export default function Footer() {
         <div>
           <h3 className="mb-4 font-semibold">Contact</h3>
           <ul className="space-y-3 text-sm text-white/70">
-            <li className="flex gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent-400" aria-hidden />{contact.address}</li>
             <li className="flex gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0 text-accent-400" aria-hidden /><a href={`tel:${contact.phone}`} className="hover:text-white">{contact.phone}</a></li>
             <li className="flex gap-2"><Mail className="mt-0.5 h-4 w-4 shrink-0 text-accent-400" aria-hidden /><a href={`mailto:${contact.email}`} className="hover:text-white">{contact.email}</a></li>
           </ul>
