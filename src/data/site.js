@@ -1,11 +1,11 @@
-// Site-wide constants. Contact details are placeholders until real ones exist.
+// Site-wide constants.
 export const SITE = {
   name: 'JobJoints',
   tagline: 'The premium network for elite medical professionals',
   contact: {
     address: 'Sector-4, Noida, Uttar Pradesh, India - 201301',
-    phone: '+91-00000-00000',
-    email: 'hello@jobjoints.com',
+    phone: '+91-8766262193',
+    email: 'jobjoints92@gmail.com',
   },
   legalName: 'JobJoints Private Limited',
 };
